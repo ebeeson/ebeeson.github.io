@@ -891,6 +891,17 @@ body {
   }
 }
 
+/* line 100, ../../src/styles/_base.scss */
+.footer {
+  text-align: center;
+  font-size: 80%;
+  color: rgba(57, 56, 56, 0.5);
+  border-top: 1px solid gainsboro;
+  margin-top: 1.2em;
+  padding-top: 1.2em;
+  padding-bottom: 1.2em;
+}
+
 /*Icon Set: IcoMoon - Free -- http://keyamoon.com/icomoon/*/
 /*License:  CC BY 3.0 -- http://creativecommons.org/licenses/by/3.0/*/
 /*
