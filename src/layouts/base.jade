@@ -14,21 +14,16 @@ html
   head
     meta(charset="utf-8")
     meta(name="viewport", content="width=device-width, initial-scale=1")
-    link(rel="icon", type="image/png", href="#{data.baseUrl}images/cabin.png")
+    link(rel="icon", type="image/png", href="#{data.baseUrl}images/ebeeson.png")
     link(href="#{data.baseUrl}styles/main.css", rel="stylesheet")
     block head
-      title= "My Blog"
+      title= "notes"
   body
     .center
       nav.group
         h1.name
-          a(href="#{data.baseUrl}") My Name
+          a(href="#{data.baseUrl}") notes
         ul.nav-links
-          li.text-link
-            a(href="#{data.baseUrl}about.html") about
-          li.text-link
-            a(href="#{data.baseUrl}archives.html") archives
+          li.text-link: a(href="https://github.com/ebeeson") projects
       block content
-
-    a(href="http://cabinjs.com")
-      img.cabin(src="#{data.baseUrl}images/cabin.png")
+      .footer My name is Erik. Frequently, I have ideas; occasionally, they're worthwhile.

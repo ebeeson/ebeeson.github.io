@@ -96,3 +96,13 @@ body {
     display: none;
   }
 }
+
+.footer {
+  text-align: center;
+  font-size: 80%;
+  color: $lightTextColor;
+  border-top: 1px solid gainsboro;
+  margin-top: 1.2em;
+  padding-top: 1.2em;
+  padding-bottom: 1.2em;
+}

@@ -20,7 +20,7 @@ module.exports = function (grunt) {
             baseUrl: '/'
           },
           pagination: {
-            postsPerPage: 1,
+            postsPerPage: 100,
             listPage: 'src/pages/index.jade'
           }
         }
